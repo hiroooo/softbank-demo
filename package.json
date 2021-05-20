@@ -4,17 +4,21 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack serve --config ./webpack.config.js"
+    "build-css": "node-sass scss --output dest",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "sync": "browser-sync start --server --files \"**/*\" ",
+    "dev": "concurrently --kill-others \"npm run watch-css\" \"npm run sync\""
   },
   "author": "",
-  "license": "ISC",
+  "license": "",
   "dependencies": {
     "jquery": "^3.6.0"
   },
   "devDependencies": {
-    "webpack": "^5.37.1",
-    "webpack-cli": "^4.7.0",
-    "webpack-dev-server": "^3.11.2"
+    "browser-sync": "^2.26.14",
+    "concurrently": "^6.1.0",
+    "node-sass": "^6.0.0",
+    "nodemon": "^2.0.7",
+    "sass-loader": "^11.1.1"
   }
 }
