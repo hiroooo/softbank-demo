@@ -11,11 +11,15 @@
   align-items: center;
   justify-content: flex-end; }
 
-ul {
+.topNavi ul {
   display: flex;
   position: relative;
   list-style-type: none;
   padding: 4 30 0 0; }
+
+.logo {
+  display: flex;
+  align-items: center; }
 
 body {
   background-color: yellowgreen;
