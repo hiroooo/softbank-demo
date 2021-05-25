@@ -14,12 +14,32 @@
 .topNavi ul {
   display: flex;
   position: relative;
+  height: 100px;
+  padding: 4px 30px 0 0;
+  align-items: center;
   list-style-type: none;
   padding: 4 30 0 0; }
+  .topNavi ul a {
+    display: block;
+    color: #65483a;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    padding: 1px 14px;
+    border-right: 1px solid #d1d1d1; }
+    .topNavi ul a .mark1 {
+      border-right: 1px solid #d1d1d1; }
 
 .logo {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  cursor: pointer; }
+  .logo .Type1 {
+    width: 42px; }
+  .logo .Type2 {
+    width: 220px;
+    margin: 0 0 4px 7px; }
 
 body {
   background-color: yellowgreen;
