@@ -2,6 +2,11 @@
 @import "components/header.scss";
 @import "components/footer.scss";
 
+.container {
+  width: 1040px;
+  margin: 0 auto;
+}
+
 body {
   background-color: yellowgreen;
   padding-top: 100px;

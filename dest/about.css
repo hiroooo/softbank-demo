@@ -127,6 +127,10 @@ footer {
       display: flex;
       align-items: center; }
 
+.container {
+  width: 1040px;
+  margin: 0 auto; }
+
 body {
   background-color: pink;
   padding-top: 100px; }
