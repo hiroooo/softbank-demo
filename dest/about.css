@@ -41,6 +41,42 @@
     width: 220px;
     margin: 0 0 4px 7px; }
 
+footer {
+  background-color: olive; }
+  footer .footer-top {
+    border-bottom: 1px solid white; }
+    footer .footer-top .fttop-images {
+      display: flex;
+      justify-content: space-around; }
+      footer .footer-top .fttop-images img {
+        width: 180px;
+        height: 150px;
+        margin-right: 10px; }
+    footer .footer-top .fttop-menus {
+      display: flex;
+      justify-content: space-around; }
+  footer .footer-middle {
+    display: flex;
+    align-items: center; }
+    footer .footer-middle .ftmid-symbol {
+      width: 50px;
+      height: 50px; }
+    footer .footer-middle .ftmid-logo {
+      width: 200px;
+      height: 50px; }
+    footer .footer-middle .ftmid-menu {
+      display: flex;
+      list-style-type: none; }
+      footer .footer-middle .ftmid-menu li {
+        margin-right: 10px; }
+  footer .footer-buttom {
+    background-color: blue;
+    color: white;
+    font-size: 6px; }
+    footer .footer-buttom .ftbut-menus {
+      display: flex;
+      align-items: center; }
+
 body {
   background-color: pink;
   padding-top: 100px; }
